@@ -18,7 +18,7 @@ public class DeleteFolder {
 	}
 	
 	private static void deleteFile(String s) {
-		 if(new File("D:\\eclipse-workspace\\JavaFSD_phase1\\TestFiles\\"+s).delete()) {
+		 if(new File("C:\\Users\\JEET\\eclipse-workspace\\JavaFullStack\\src\\phase_I_project\\TestFiles"+s).delete()) {
 			 System.out.println("dolder deleted successfully");
 		 }
 		 else

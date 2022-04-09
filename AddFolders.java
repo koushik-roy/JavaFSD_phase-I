@@ -19,13 +19,13 @@ public class AddFolders {
 
 	private static void add(String s) {
 		// TODO Auto-generated method stub
-		if(new File("D:\\eclipse-workspace\\JavaFSD_phase1\\TestFiles\\"+s).exists()) {
+		if(new File("C:\\Users\\JEET\\eclipse-workspace\\JavaFullStack\\src\\phase_I_project\\TestFiles"+s).exists()) {
 			System.out.println("already exists");
 		}
 		else
 	
 		try {
-			 if(new File("D:\\eclipse-workspace\\JavaFSD_phase1\\TestFiles\\"+s).mkdir());{
+			 if(new File("C:\\Users\\JEET\\eclipse-workspace\\JavaFullStack\\src\\phase_I_project\\TestFiles"+s).mkdir());{
 				 System.out.println("Folder created with name: "+s);
 			 } 
 			

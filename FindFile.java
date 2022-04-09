@@ -20,7 +20,7 @@ public class FindFile {
 
 	private static void find(String s) {
 		// TODO Auto-generated method stub
-		if(new File("D:\\eclipse-workspace\\JavaFSD_phase1\\TestFiles\\"+s+".txt").exists()) {
+		if(new File("C:\\Users\\JEET\\eclipse-workspace\\JavaFullStack\\src\\phase_I_project\\TestFiles"+s+".txt").exists()) {
 			System.out.println("File exists");
 		}
 		else

@@ -14,7 +14,7 @@ public class RetrieveFiles {
 	
 	private static void retrieve() {
 		try {
-			File folder=new File("D:\\eclipse-workspace\\JavaFSD_phase1\\TestFiles");
+			File folder=new File("C:\\Users\\JEET\\eclipse-workspace\\JavaFullStack\\src\\phase_I_project\\TestFiless");
 					
 			File[] files=folder.listFiles();
 			for(File file:files) {

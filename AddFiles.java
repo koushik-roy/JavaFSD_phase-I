@@ -18,13 +18,13 @@ public class AddFiles {
 	}
 	
 	private static void add(String s) {
-		if(new File("D:\\eclipse-workspace\\JavaFSD_phase1\\TestFiles\\"+s+".txt").exists()) {
+		if(new File("C:\\Users\\JEET\\eclipse-workspace\\JavaFullStack\\src\\phase_I_project\\TestFiles"+s+".txt").exists()) {
 			System.out.println("already exists");
 		}
 		else
 	
 		try {
-			 if(new File("D:\\eclipse-workspace\\JavaFSD_phase1\\TestFiles\\"+s+".txt").createNewFile());{
+			 if(new File("C:\\Users\\JEET\\eclipse-workspace\\JavaFullStack\\src\\phase_I_project\\TestFiles"+s+".txt").createNewFile());{
 				 System.out.println("File created with name: "+s+".txt");
 			 } 
 			
