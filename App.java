@@ -11,6 +11,7 @@ public class App {
 		
 		do {
 			System.out.println("##############################");
+			System.out.println("FileExplorer1 developed by Koushik Roy");
 			System.out.println("Please choose an option:");
 			System.out.println("press A for viewing files and folders");
 			System.out.println("press B for entering in a folder");
